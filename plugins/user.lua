@@ -9,4 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "https://github.com/github/copilot.vim",
+    event = "VeryLazy",
+    version = "*"
+  },
 }
